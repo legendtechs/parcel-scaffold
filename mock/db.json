@@ -1,0 +1,52 @@
+{
+  "getPost": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment put",
+      "postId": 1,
+      "createdAt": 1567664600964
+    },
+    {
+      "id": 1567664629477,
+      "body": "some comment put1567664629477",
+      "postId": 1567664629477,
+      "createdAt": 1567664629481
+    },
+    {
+      "id": 1567664630106,
+      "body": "some comment put1567664630106",
+      "postId": 1567664630106,
+      "createdAt": 1567664630108
+    },
+    {
+      "id": 1567664630535,
+      "body": "some comment put1567664630535",
+      "postId": 1567664630535,
+      "createdAt": 1567664630537
+    },
+    {
+      "id": 1567664630709,
+      "body": "some comment put1567664630709",
+      "postId": 1567664630709,
+      "createdAt": 1567664630711
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "list": {
+    "intro": "test",
+    "createdAt": 1567662275179
+  },
+  "test": {
+    "intro": "test",
+    "createdAt": 1567658522734
+  }
+}

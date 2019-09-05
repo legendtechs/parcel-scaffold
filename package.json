@@ -1,0 +1,25 @@
+{
+  "name": "parcel-react-mobx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "legendscott@163.com <legendscott@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "mock": "node ./mock/index.js",
+    "start": "parcel index.html --port 10001",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "babel-preset-latest": "^6.24.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "json-server": "^0.15.1"
+  }
+}
