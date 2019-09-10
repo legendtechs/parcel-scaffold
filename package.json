@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "mock": "node ./mock/index.js",
-    "start": "parcel index.html --port 10001",
+    "dev": "node ./build/server.js",
     "build": "parcel build index.html"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
     "babel-preset-latest": "^6.24.1",
     "express": "^4.17.1",
     "http-proxy-middleware": "^0.20.0",
-    "json-server": "^0.15.1"
+    "json-server": "^0.15.1",
+    "sass": "^1.23.0-module.beta.1"
   }
 }
